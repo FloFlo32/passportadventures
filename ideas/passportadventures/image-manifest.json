@@ -1,0 +1,506 @@
+{
+  "tour-summer-block": {
+    "file": "tour-summer-block.webp",
+    "id": "16555172",
+    "width": 1000,
+    "height": 514
+  },
+  "tour-summer-card": {
+    "file": "tour-summer-card.webp",
+    "id": "16162090",
+    "width": 1280,
+    "height": 344
+  },
+  "logo": {
+    "file": "logo.webp",
+    "id": "16677967",
+    "width": 753,
+    "height": 571
+  },
+  "mesha": {
+    "file": "mesha.webp",
+    "id": "15907738",
+    "width": 1280,
+    "height": 1169
+  },
+  "tour-egypt-card": {
+    "file": "tour-egypt-card.webp",
+    "id": "16152035",
+    "width": 2600,
+    "height": 1143
+  },
+  "about-2": {
+    "file": "about-2.webp",
+    "id": "15908081",
+    "width": 3103,
+    "height": 2000
+  },
+  "hero-home": {
+    "file": "hero-home.webp",
+    "id": "15908091",
+    "width": 3000,
+    "height": 2000
+  },
+  "tour-wonder-card": {
+    "file": "tour-wonder-card.webp",
+    "id": "15908469",
+    "width": 940,
+    "height": 788
+  },
+  "about-3": {
+    "file": "about-3.webp",
+    "id": "17271886",
+    "width": 3024,
+    "height": 4032
+  },
+  "tour-egypt-block": {
+    "file": "tour-egypt-block.webp",
+    "id": "16555252",
+    "width": 1000,
+    "height": 627
+  },
+  "tour-greece-block": {
+    "file": "tour-greece-block.webp",
+    "id": "16555253",
+    "width": 1000,
+    "height": 669
+  },
+  "about-1": {
+    "file": "about-1.webp",
+    "id": "16005799",
+    "width": 2048,
+    "height": 1536
+  },
+  "svc-advisor-program": {
+    "file": "svc-advisor-program.webp",
+    "id": "15908470",
+    "width": 940,
+    "height": 788
+  },
+  "svc-group-trip": {
+    "file": "svc-group-trip.webp",
+    "id": "15908475",
+    "width": 940,
+    "height": 788
+  },
+  "gallery-4": {
+    "file": "gallery-4.webp",
+    "id": "16078028",
+    "width": 1080,
+    "height": 1080
+  },
+  "gallery-1": {
+    "file": "gallery-1.webp",
+    "id": "16162117",
+    "width": 1058,
+    "height": 1058
+  },
+  "svc-dream-vacation": {
+    "file": "svc-dream-vacation.webp",
+    "id": "15908477",
+    "width": 940,
+    "height": 788
+  },
+  "gallery-5": {
+    "file": "gallery-5.webp",
+    "id": "16078029",
+    "width": 1080,
+    "height": 1080
+  },
+  "gallery-7": {
+    "file": "gallery-7.webp",
+    "id": "16162118",
+    "width": 1058,
+    "height": 1058
+  },
+  "gallery-2": {
+    "file": "gallery-2.webp",
+    "id": "16078032",
+    "width": 1080,
+    "height": 1080
+  },
+  "gallery-8": {
+    "file": "gallery-8.webp",
+    "id": "16162119",
+    "width": 1058,
+    "height": 1058
+  },
+  "gallery-3": {
+    "file": "gallery-3.webp",
+    "id": "16078031",
+    "width": 1080,
+    "height": 1080
+  },
+  "gallery-9": {
+    "file": "gallery-9.webp",
+    "id": "16692561",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-10": {
+    "file": "gallery-10.webp",
+    "id": "16692560",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-11": {
+    "file": "gallery-11.webp",
+    "id": "16692558",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-12": {
+    "file": "gallery-12.webp",
+    "id": "16692559",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-13": {
+    "file": "gallery-13.webp",
+    "id": "16692562",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-16": {
+    "file": "gallery-16.webp",
+    "id": "16693812",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-14": {
+    "file": "gallery-14.webp",
+    "id": "16692575",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-17": {
+    "file": "gallery-17.webp",
+    "id": "16693813",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-6": {
+    "file": "gallery-6.webp",
+    "id": "16078030",
+    "width": 1080,
+    "height": 1080
+  },
+  "gallery-18": {
+    "file": "gallery-18.webp",
+    "id": "16693811",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-19": {
+    "file": "gallery-19.webp",
+    "id": "16695038",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-22": {
+    "file": "gallery-22.webp",
+    "id": "16695040",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-21": {
+    "file": "gallery-21.webp",
+    "id": "16695041",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-15": {
+    "file": "gallery-15.webp",
+    "id": "16693814",
+    "width": 860,
+    "height": 600
+  },
+  "testimonial-1": {
+    "file": "testimonial-1.webp",
+    "id": "15908510",
+    "width": 200,
+    "height": 200
+  },
+  "gallery-23": {
+    "file": "gallery-23.webp",
+    "id": "16695039",
+    "width": 860,
+    "height": 600
+  },
+  "gallery-20": {
+    "file": "gallery-20.webp",
+    "id": "16695037",
+    "width": 860,
+    "height": 600
+  },
+  "testimonial-2": {
+    "file": "testimonial-2.webp",
+    "id": "15908509",
+    "width": 1536,
+    "height": 2048
+  },
+  "testimonial-8": {
+    "file": "testimonial-8.webp",
+    "id": "15908497",
+    "width": 200,
+    "height": 200
+  },
+  "testimonial-3": {
+    "file": "testimonial-3.webp",
+    "id": "15908508",
+    "width": 1440,
+    "height": 1440
+  },
+  "testimonial-5": {
+    "file": "testimonial-5.webp",
+    "id": "15908502",
+    "width": 768,
+    "height": 768
+  },
+  "testimonial-6": {
+    "file": "testimonial-6.webp",
+    "id": "15908501",
+    "width": 958,
+    "height": 960
+  },
+  "testimonial-7": {
+    "file": "testimonial-7.webp",
+    "id": "15908499",
+    "width": 1290,
+    "height": 1291
+  },
+  "testimonial-9": {
+    "file": "testimonial-9.webp",
+    "id": "15908484",
+    "width": 200,
+    "height": 200
+  },
+  "testimonial-4": {
+    "file": "testimonial-4.webp",
+    "id": "15908507",
+    "width": 950,
+    "height": 960
+  },
+  "latest-5": {
+    "file": "latest-5.webp",
+    "id": "16005819",
+    "width": 480,
+    "height": 640
+  },
+  "latest-6": {
+    "file": "latest-6.webp",
+    "id": "16005817",
+    "width": 1024,
+    "height": 768
+  },
+  "latest-2": {
+    "file": "latest-2.webp",
+    "id": "16005823",
+    "width": 240,
+    "height": 320
+  },
+  "latest-1": {
+    "file": "latest-1.webp",
+    "id": "16005824",
+    "width": 1536,
+    "height": 2048
+  },
+  "latest-4": {
+    "file": "latest-4.webp",
+    "id": "16005821",
+    "width": 240,
+    "height": 320
+  },
+  "latest-3": {
+    "file": "latest-3.webp",
+    "id": "16005822",
+    "width": 480,
+    "height": 640
+  },
+  "latest-7": {
+    "file": "latest-7.webp",
+    "id": "16005829",
+    "width": 1950,
+    "height": 2600
+  },
+  "latest-10": {
+    "file": "latest-10.webp",
+    "id": "16005813",
+    "width": 480,
+    "height": 640
+  },
+  "latest-13": {
+    "file": "latest-13.webp",
+    "id": "16005810",
+    "width": 360,
+    "height": 640
+  },
+  "latest-9": {
+    "file": "latest-9.webp",
+    "id": "16005814",
+    "width": 1536,
+    "height": 2048
+  },
+  "latest-8": {
+    "file": "latest-8.webp",
+    "id": "16005815",
+    "width": 3024,
+    "height": 4032
+  },
+  "blog-1": {
+    "file": "blog-1.webp",
+    "id": "16787966",
+    "width": 5563,
+    "height": 3709
+  },
+  "blog-2": {
+    "file": "blog-2.webp",
+    "id": "16683854",
+    "width": 3960,
+    "height": 2640
+  },
+  "latest-12": {
+    "file": "latest-12.webp",
+    "id": "16005811",
+    "width": 3024,
+    "height": 4032
+  },
+  "blog-3": {
+    "file": "blog-3.webp",
+    "id": "16598065",
+    "width": 3828,
+    "height": 2475
+  },
+  "blog-4": {
+    "file": "blog-4.webp",
+    "id": "16541461",
+    "width": 5997,
+    "height": 4000
+  },
+  "latest-11": {
+    "file": "latest-11.webp",
+    "id": "16005812",
+    "width": 3024,
+    "height": 4032
+  },
+  "blog-9": {
+    "file": "blog-9.webp",
+    "id": "16169549",
+    "width": 2250,
+    "height": 1500
+  },
+  "blog-5": {
+    "file": "blog-5.webp",
+    "id": "16410852",
+    "width": 6720,
+    "height": 4480
+  },
+  "blog-6": {
+    "file": "blog-6.webp",
+    "id": "16372740",
+    "width": 5184,
+    "height": 3456
+  },
+  "blog-10": {
+    "file": "blog-10.webp",
+    "id": "16056982",
+    "width": 1920,
+    "height": 1278
+  },
+  "blog-7": {
+    "file": "blog-7.webp",
+    "id": "16169631",
+    "width": 2254,
+    "height": 1500
+  },
+  "blog-8": {
+    "file": "blog-8.webp",
+    "id": "16262827",
+    "width": 2478,
+    "height": 1500
+  },
+  "blog-13": {
+    "file": "blog-13.webp",
+    "id": "16010123",
+    "width": 1000,
+    "height": 650
+  },
+  "blog-12": {
+    "file": "blog-12.webp",
+    "id": "16010143",
+    "width": 1000,
+    "height": 650
+  },
+  "summer-tiny-tots": {
+    "file": "summer-tiny-tots.webp",
+    "id": "16692826",
+    "width": 860,
+    "height": 600
+  },
+  "summer-night-care": {
+    "file": "summer-night-care.webp",
+    "id": "16692830",
+    "width": 860,
+    "height": 600
+  },
+  "blog-11": {
+    "file": "blog-11.webp",
+    "id": "16088986",
+    "width": 1920,
+    "height": 1281
+  },
+  "blog-16": {
+    "file": "blog-16.webp",
+    "id": "15249441",
+    "width": 3001,
+    "height": 2000
+  },
+  "egypt-history": {
+    "file": "egypt-history.webp",
+    "id": "16693707",
+    "width": 860,
+    "height": 600
+  },
+  "blog-15": {
+    "file": "blog-15.webp",
+    "id": "15908422",
+    "width": 3000,
+    "height": 2000
+  },
+  "summer-ocean-camp": {
+    "file": "summer-ocean-camp.webp",
+    "id": "16692835",
+    "width": 860,
+    "height": 600
+  },
+  "blog-14": {
+    "file": "blog-14.webp",
+    "id": "15908423",
+    "width": 2997,
+    "height": 2000
+  },
+  "wonder-suite-1": {
+    "file": "wonder-suite-1.webp",
+    "id": "16695163",
+    "width": 860,
+    "height": 600
+  },
+  "wonder-suite-3": {
+    "file": "wonder-suite-3.webp",
+    "id": "16695165",
+    "width": 860,
+    "height": 600
+  },
+  "wonder-suite-2": {
+    "file": "wonder-suite-2.webp",
+    "id": "16695164",
+    "width": 860,
+    "height": 600
+  },
+  "wonder-ocean": {
+    "file": "wonder-ocean.webp",
+    "id": "16694956",
+    "width": 1104,
+    "height": 751
+  }
+}

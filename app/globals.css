@@ -15,80 +15,50 @@
 
 :root {
   /* brand:hue:start */
-  --brand-hue: 265; /* set by brand.config.ts */
+  --brand-hue: 212; /* teal, extracted from the Passport Adventures logo */
+  --brand-hue-2: 19; /* blush pink, the logo's secondary accent */
 /* brand:hue:end */
 
   /* radius — brand:corners controls this via `npm run brand` */
   --radius: 0.75rem;
 
-  /* Neutrals tuned with a hint of brand hue (cool, not dead gray) */
-  --background: oklch(0.99 0.004 var(--brand-hue));
-  --foreground: oklch(0.18 0.02 var(--brand-hue));
+  /* Clean light canvas only — no dark mode for this brand */
+  --background: oklch(0.995 0.003 var(--brand-hue));
+  --foreground: oklch(0.2 0.03 var(--brand-hue));
 
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0.02 var(--brand-hue));
+  --card-foreground: oklch(0.2 0.03 var(--brand-hue));
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.18 0.02 var(--brand-hue));
+  --popover-foreground: oklch(0.2 0.03 var(--brand-hue));
 
-  /* Brand primary scale — all derived from --brand-hue */
-  --primary: oklch(0.58 0.2 var(--brand-hue));
+  /* Primary — the logo's teal */
+  --primary: oklch(0.64 0.09 var(--brand-hue));
   --primary-foreground: oklch(0.99 0.01 var(--brand-hue));
 
-  --secondary: oklch(0.96 0.01 var(--brand-hue));
-  --secondary-foreground: oklch(0.25 0.03 var(--brand-hue));
+  /* Secondary — the logo's blush pink, used as a genuine second accent */
+  --secondary: oklch(0.9 0.07 var(--brand-hue-2));
+  --secondary-foreground: oklch(0.32 0.06 var(--brand-hue-2));
 
   --muted: oklch(0.96 0.008 var(--brand-hue));
-  --muted-foreground: oklch(0.52 0.02 var(--brand-hue));
+  --muted-foreground: oklch(0.5 0.025 var(--brand-hue));
 
-  --accent: oklch(0.95 0.03 var(--brand-hue));
-  --accent-foreground: oklch(0.25 0.05 var(--brand-hue));
+  --accent: oklch(0.93 0.05 var(--brand-hue-2));
+  --accent-foreground: oklch(0.3 0.06 var(--brand-hue-2));
 
   --destructive: oklch(0.58 0.22 25);
   --destructive-foreground: oklch(0.99 0.01 25);
 
-  --border: oklch(0.91 0.01 var(--brand-hue));
-  --input: oklch(0.91 0.01 var(--brand-hue));
-  --ring: oklch(0.58 0.2 var(--brand-hue));
+  --border: oklch(0.91 0.012 var(--brand-hue));
+  --input: oklch(0.91 0.012 var(--brand-hue));
+  --ring: oklch(0.64 0.09 var(--brand-hue));
 
-  /* Decorative gradient stops for hero/aurora effects */
-  --aurora-1: oklch(0.7 0.2 var(--brand-hue));
-  --aurora-2: oklch(0.72 0.18 calc(var(--brand-hue) + 60));
-  --aurora-3: oklch(0.75 0.16 calc(var(--brand-hue) - 50));
+  /* Decorative gradient stops for hero/aurora effects: teal -> pink -> soft gold */
+  --aurora-1: oklch(0.75 0.1 var(--brand-hue));
+  --aurora-2: oklch(0.85 0.09 var(--brand-hue-2));
+  --aurora-3: oklch(0.8 0.09 calc(var(--brand-hue) + 30));
 }
 
-.dark {
-  /* Near-black mono base: surfaces stay neutral; violet is reserved as the accent. */
-  --background: oklch(0.15 0.004 var(--brand-hue));
-  --foreground: oklch(0.97 0.006 var(--brand-hue));
-
-  --card: oklch(0.185 0.005 var(--brand-hue));
-  --card-foreground: oklch(0.97 0.006 var(--brand-hue));
-  --popover: oklch(0.185 0.005 var(--brand-hue));
-  --popover-foreground: oklch(0.97 0.006 var(--brand-hue));
-
-  --primary: oklch(0.7 0.19 var(--brand-hue));
-  --primary-foreground: oklch(0.15 0.02 var(--brand-hue));
-
-  --secondary: oklch(0.24 0.006 var(--brand-hue));
-  --secondary-foreground: oklch(0.97 0.006 var(--brand-hue));
-
-  --muted: oklch(0.23 0.006 var(--brand-hue));
-  --muted-foreground: oklch(0.72 0.012 var(--brand-hue));
-
-  --accent: oklch(0.27 0.012 var(--brand-hue));
-  --accent-foreground: oklch(0.97 0.006 var(--brand-hue));
-
-  --destructive: oklch(0.65 0.2 25);
-  --destructive-foreground: oklch(0.97 0.01 25);
-
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.7 0.19 var(--brand-hue));
-
-  --aurora-1: oklch(0.65 0.22 var(--brand-hue));
-  --aurora-2: oklch(0.68 0.2 calc(var(--brand-hue) + 60));
-  --aurora-3: oklch(0.7 0.18 calc(var(--brand-hue) - 50));
-}
+/* This brand ships light-only by design — no dark mode, no theme toggle. */
 
 /* Map tokens → Tailwind theme so you can use bg-primary, text-muted-foreground… */
 @theme inline {

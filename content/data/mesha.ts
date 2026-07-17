@@ -1,0 +1,13 @@
+export const mesha = {
+  name: "Mesha",
+  role: "Founder",
+  image: "/ingested/passportadventures/mesha.webp",
+  bio: [
+    "Mesha is a seasoned travel professional with a passion for crafting extraordinary travel experiences. Originally from the Caribbean, she spent her teenage years immersed in the vibrant culture and beauty of the islands before relocating to Orlando, FL, which she now calls her second home. Her deep connection to Caribbean culture and extensive travels across Europe, the Middle East, and the Caribbean provide her with a wealth of insider knowledge and expertise that she brings to every client she serves.",
+    "With years of experience in the travel industry, she has curated countless memorable experiences for babymooners, honeymooners, recent graduates, families, and professionals. From destination weddings and family reunions to office retreats and milestone celebrations, she specializes in tailoring travel plans to fit her clients' unique needs and preferences.",
+    "In 2017, Mesha transformed her passion for travel into a thriving business, founding Passport Adventures. What began as a hobby of planning fabulous vacations for friends and family has grown into a full-service travel company renowned for its meticulous attention to detail, innovative itineraries, and commitment to client satisfaction. Under her leadership, Passport Adventures has become synonymous with luxury, personalization, and exceptional service.",
+    "Mesha is a proud holder of multiple travel certifications, including accreditations from major cruise lines such as Royal Caribbean, Carnival, Virgin Voyages, and Norwegian, as well as certifications in Disney Adventures and other travel specialties. Her hands-on experience and training ensure that her clients receive top-tier recommendations and exclusive insights for their travels.",
+    "Beyond trip planning, she is passionate about empowering others to pursue their own journeys in the travel industry. Through mentoring and training, she inspires aspiring travel advisors to launch their own businesses, gaining financial independence and time freedom. Her dedication to excellence, her insider's perspective on travel, and her ability to foster community through annual group trips set her apart in the industry. Whether it's a luxurious escape, a stress-free group vacation, or a tailored adventure, Mesha ensures every client experiences the trip of a lifetime.",
+    "For Mesha, travel is more than just a service, it's an opportunity to create lifelong memories, connect with diverse cultures, and empower others to see the world.",
+  ],
+};

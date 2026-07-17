@@ -7,7 +7,7 @@ import { Footer } from "@/components/sections/footer";
 
 export const metadata: Metadata = {
   title: "Brand guide",
-  description: `The living brand guide for ${brand.name} — colors, typography, logo, and components.`,
+  description: `The living brand guide for ${brand.name}: colors, typography, logo, and components.`,
 };
 
 const SWATCHES: { token: string; label: string; fg?: string }[] = [

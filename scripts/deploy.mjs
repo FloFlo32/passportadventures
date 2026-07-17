@@ -15,14 +15,14 @@
  */
 import { execSync } from "node:child_process";
 import { existsSync, accessSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DRY = process.argv.includes("--dry");
 
 if (existsSync(join(root, ".env"))) process.loadEnvFile(join(root, ".env"));
-const { brand } = await import(join(root, "brand.config.ts"));
+const { brand } = await import(pathToFileURL(join(root, "brand.config.ts")).href);
 
 const c = {
   dim: (s) => `\x1b[2m${s}\x1b[0m`,
@@ -39,8 +39,13 @@ function die(msg) {
 function step(n, msg) {
   console.log(`\n${c.bold(`[${n}]`)} ${msg}`);
 }
+function redact(cmd) {
+  return cmd
+    .replace(/(token[= ])\S+/gi, "$1***")
+    .replace(/https:\/\/[^@/\s]+@/g, "https://***@");
+}
 function sh(cmd, opts = {}) {
-  console.log(`    ${c.dim("$ " + cmd.replace(/(token[= ])\S+/gi, "$1***"))}`);
+  console.log(`    ${c.dim("$ " + redact(cmd))}`);
   if (DRY) return "";
   return execSync(cmd, { cwd: root, stdio: "pipe", encoding: "utf8", ...opts });
 }

@@ -1,95 +1,135 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Mail } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
 import { brand } from "@/brand.config";
-import { GitHubIcon, XIcon } from "@/components/icons";
+import { InstagramIcon, FacebookIcon, TikTokIcon } from "@/components/icons";
 
-const cols = [
-  {
-    title: "Product",
-    links: [
-      { label: "Features", href: "#features" },
-      { label: "Why us", href: "#bento" },
-      { label: "Results", href: "#stats" },
-    ],
-  },
-  {
-    title: "Resources",
-    links: [
-      { label: "Get started", href: "#cta" },
-      { label: "Brand guide", href: "/brand-guide" },
-      { label: "Changelog", href: "#" },
-    ],
-  },
-  {
-    title: "Company",
-    links: [
-      { label: "About", href: "#" },
-      { label: "Privacy", href: "#" },
-      { label: "Terms", href: "#" },
-    ],
-  },
+const explore = [
+  { label: "Home", href: "/" },
+  { label: "Group Trips", href: "/travel-packages" },
+  { label: "Services", href: "/services" },
+  { label: "Your Advisor", href: "/advisor/mesha" },
+  { label: "Latest Trips", href: "/portfolio/latest-trips" },
+  { label: "Blog", href: "/blog" },
+];
+
+const company = [
+  { label: "Your Gateway to Unforgettable Travel", href: "/about-us/your-gateway-to-unforgettable-travel-6524344" },
+  { label: "Passion Meets Professionalism", href: "/about-us/passion-meets-professionalism-6524345" },
+  { label: "Tailored Travel Solutions", href: "/about-us/tailored-travel-solutions-for-every-occasion-6524346" },
+  { label: "Reviews", href: "/reviews" },
+  { label: "Contact Us", href: "/contact-us" },
+];
+
+const legal = [
+  { label: "Merchant Policies", href: "/merchant-policies" },
+  { label: "Legal Notice", href: "/legal-notice" },
+  { label: "Terms & Conditions", href: "/terms-and-conditions" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Refund Policy", href: "/return-and-refund-policy" },
 ];
 
 export function Footer() {
   return (
-    <footer className="mt-auto border-t border-border/60">
-      <div className="container-px mx-auto grid max-w-6xl gap-10 py-14 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
+    <footer className="mt-auto border-t border-border/60 bg-card">
+      <div className="container-px mx-auto grid max-w-6xl gap-10 py-14 md:grid-cols-[1.3fr_1fr_1fr_1fr]">
         <div>
-          <Link href="/" className="flex items-center gap-2 font-display text-lg font-bold">
-            <span className="grid size-8 place-items-center rounded-lg bg-primary text-primary-foreground">
-              {brand.name.charAt(0)}
-            </span>
-            {brand.name}
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.webp"
+              alt="Passport Adventures"
+              width={160}
+              height={121}
+              className="h-12 w-auto object-contain"
+            />
           </Link>
           <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-            {brand.tagline}
+            {brand.tagline}. Your trusted travel concierge in Orlando, FL.
           </p>
           <div className="mt-5 flex gap-2">
             <Link
-              href={`https://github.com/${brand.social.github}`}
-              aria-label="GitHub"
-              className="grid size-9 place-items-center rounded-lg border border-border/60 text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+              href={brand.social.instagram}
+              target="_blank"
+              aria-label="Instagram"
+              className="grid size-9 place-items-center rounded-full border border-border text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
             >
-              <GitHubIcon className="size-4" />
+              <InstagramIcon className="size-4" />
             </Link>
             <Link
-              href={`https://x.com/${brand.social.x}`}
-              aria-label="X"
-              className="grid size-9 place-items-center rounded-lg border border-border/60 text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+              href={brand.social.facebook}
+              target="_blank"
+              aria-label="Facebook"
+              className="grid size-9 place-items-center rounded-full border border-border text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
             >
-              <XIcon className="size-4" />
+              <FacebookIcon className="size-4" />
             </Link>
             <Link
-              href={`mailto:${brand.social.email}`}
-              aria-label="Email"
-              className="grid size-9 place-items-center rounded-lg border border-border/60 text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+              href={brand.social.tiktok}
+              target="_blank"
+              aria-label="TikTok"
+              className="grid size-9 place-items-center rounded-full border border-border text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary"
             >
-              <Mail className="size-4" />
+              <TikTokIcon className="size-4" />
             </Link>
           </div>
         </div>
 
-        {cols.map((col) => (
-          <div key={col.title}>
-            <h4 className="font-display text-sm font-semibold">{col.title}</h4>
-            <ul className="mt-4 space-y-2.5">
-              {col.links.map((l) => (
-                <li key={l.label}>
-                  <Link
-                    href={l.href}
-                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                  >
-                    {l.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+        <div>
+          <h4 className="font-display text-sm font-semibold">Explore</h4>
+          <ul className="mt-4 space-y-2.5">
+            {explore.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="font-display text-sm font-semibold">Company</h4>
+          <ul className="mt-4 space-y-2.5">
+            {company.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="font-display text-sm font-semibold">Legal</h4>
+          <ul className="mt-4 space-y-2.5">
+            {legal.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-5 space-y-2 text-sm text-muted-foreground">
+            <a href={`tel:${brand.contact.phone}`} className="flex items-center gap-2 hover:text-foreground">
+              <Phone className="size-4 text-primary" />
+              {brand.contact.phoneDisplay}
+            </a>
+            <a href={`mailto:${brand.social.email}`} className="flex items-center gap-2 hover:text-foreground">
+              <Mail className="size-4 text-primary" />
+              {brand.social.email}
+            </a>
+            <span className="flex items-start gap-2">
+              <MapPin className="mt-0.5 size-4 shrink-0 text-primary" />
+              {brand.contact.address}
+            </span>
           </div>
-        ))}
+        </div>
       </div>
       <div className="border-t border-border/60 py-6">
         <p className="container-px mx-auto max-w-6xl text-sm text-muted-foreground">
-          © {brand.name}. Built on the {brand.name} starter pack.
+          © {new Date().getFullYear()} {brand.name}. All rights reserved.
         </p>
       </div>
     </footer>

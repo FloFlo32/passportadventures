@@ -1,0 +1,27 @@
+{
+  "source": "https://passportadventures.org",
+  "ingestedFromHost": "passportadventures.org",
+  "pagesCrawled": 1,
+  "name": "passportadventures.org",
+  "tagline": "",
+  "description": "",
+  "domain": "passportadventures.org",
+  "brandColor": null,
+  "theme": {
+    "hue": 265
+  },
+  "fonts": [],
+  "logo": null,
+  "logoNote": "Logo not auto-found — grab the navbar logo manually",
+  "favicon": "https://passportadventures.org/undefined",
+  "images": [],
+  "imageCount": 0,
+  "social": {},
+  "whatsapp": null,
+  "phone": null,
+  "location": null,
+  "sectionOrder": [],
+  "navItems": [],
+  "footerItems": [],
+  "innerPages": []
+}
