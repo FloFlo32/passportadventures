@@ -46,7 +46,7 @@ export default function ServicesPage() {
         <section className="relative overflow-hidden">
           <AuroraBackground />
           <GridPattern />
-          <div className="container-px mx-auto grid max-w-6xl items-center gap-12 pt-20 pb-16 sm:pt-28 sm:pb-24 lg:grid-cols-2">
+          <div className="container-px mx-auto grid max-w-6xl items-center gap-12 pt-20 pb-24 sm:pt-28 sm:pb-28 lg:grid-cols-2">
             <div>
               <Reveal>
                 <Badge variant="accent">What We Offer</Badge>

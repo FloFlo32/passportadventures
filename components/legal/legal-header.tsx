@@ -16,7 +16,7 @@ export function LegalHeader({
   description: string;
 }) {
   return (
-    <div className="mx-auto max-w-3xl px-4 pt-14 pb-8 sm:px-6 sm:pt-20">
+    <div className="mx-auto max-w-3xl px-4 pt-14 pb-10 sm:px-6 sm:pt-20 sm:pb-14">
       <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
         {eyebrow}
       </span>

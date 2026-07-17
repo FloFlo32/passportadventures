@@ -51,7 +51,7 @@ export default async function AboutDetailPage({
     <>
       <Navbar />
       <main className="flex-1">
-        <article className="mx-auto max-w-3xl px-4 pt-10 pb-6 sm:px-6">
+        <article className="mx-auto max-w-3xl px-4 pt-10 pb-14 sm:px-6 sm:pb-20">
           <Reveal>
             <Link
               href="/"

@@ -42,7 +42,7 @@ export default function AdvisorMeshaPage() {
           <AuroraBackground />
           <GridPattern />
 
-          <div className="container-px mx-auto max-w-6xl pt-20 pb-16 sm:pt-28">
+          <div className="container-px mx-auto max-w-6xl pt-20 pb-20 sm:pt-28 sm:pb-24">
             <RevealGroup className="grid items-center gap-10 md:grid-cols-[minmax(0,320px)_1fr]">
               <RevealItem>
                 <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-border bg-card shadow-xl shadow-primary/10">

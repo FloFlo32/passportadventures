@@ -47,7 +47,7 @@ export default function ContactUsPage() {
           <AuroraBackground />
           <GridPattern />
 
-          <div className="container-px mx-auto max-w-4xl pt-20 pb-14 text-center sm:pt-28">
+          <div className="container-px mx-auto max-w-4xl pt-20 pb-20 text-center sm:pt-28 sm:pb-24">
             <Reveal>
               <Badge variant="accent">Get in touch</Badge>
             </Reveal>

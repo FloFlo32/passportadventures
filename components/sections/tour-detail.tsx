@@ -25,7 +25,7 @@ export function TourDetail({ tour }: { tour: Tour }) {
   return (
     <>
       {/* Hero: headline + tagline on a solid surface, real photo below (no scrim) */}
-      <section className="container-px mx-auto max-w-6xl pt-10 pb-16 sm:pt-16">
+      <section className="container-px mx-auto max-w-6xl pt-10 pb-20 sm:pt-16 sm:pb-24">
         <Reveal>
           <Badge className="border-secondary bg-secondary text-secondary-foreground">
             Group Trip

@@ -78,7 +78,7 @@ export default function BlogIndexPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative overflow-hidden px-3 pt-6">
+        <section className="relative overflow-hidden px-3 pt-8 pb-12 sm:pt-10 sm:pb-16">
           <AuroraBackground />
           <div className="mx-auto max-w-6xl overflow-hidden rounded-3xl border border-border bg-card shadow-xl shadow-primary/5">
             <div className="grid items-stretch gap-0 lg:grid-cols-2">
