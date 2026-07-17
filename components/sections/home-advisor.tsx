@@ -10,7 +10,7 @@ export function HomeAdvisor() {
     <section className="px-4 py-20 sm:px-6">
       <Reveal className="mx-auto max-w-6xl overflow-hidden rounded-3xl border border-border bg-card shadow-lg">
         <div className="grid items-stretch gap-0 md:grid-cols-[280px_1fr]">
-          <div className="relative h-64 md:h-full md:min-h-[320px]">
+          <div className="relative h-64 md:h-full md:min-h-[420px]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={meshaQuote.image}
@@ -20,7 +20,7 @@ export function HomeAdvisor() {
               className="size-full object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center gap-5 p-8 sm:p-12">
+          <div className="flex flex-col justify-center gap-5 p-8 py-12 sm:p-12 sm:py-16 lg:py-20">
             <Quote className="size-8 text-secondary" />
             <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">
               {meshaQuote.title}

@@ -82,7 +82,7 @@ export default function BlogIndexPage() {
           <AuroraBackground />
           <div className="mx-auto max-w-6xl overflow-hidden rounded-3xl border border-border bg-card shadow-xl shadow-primary/5">
             <div className="grid items-stretch gap-0 lg:grid-cols-2">
-              <div className="flex flex-col justify-center gap-6 p-8 sm:p-12 lg:p-14">
+              <div className="flex flex-col justify-center gap-6 p-8 py-12 sm:p-12 sm:py-16 lg:p-16 lg:py-20">
                 <Reveal>
                   <span className="inline-flex w-fit items-center gap-1.5 rounded-full bg-secondary px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-accent-foreground">
                     <Sparkles className="size-3.5" />
@@ -104,7 +104,7 @@ export default function BlogIndexPage() {
               </div>
               <Reveal
                 delay={0.1}
-                className="relative h-72 lg:h-full lg:min-h-[420px]"
+                className="relative h-72 lg:h-full lg:min-h-[520px]"
               >
                 <Image
                   src={heroImage}
