@@ -70,7 +70,7 @@ export default async function BlogPostPage({
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="container-px mx-auto max-w-4xl pt-10">
+        <section className="container-px mx-auto max-w-4xl pt-10 pb-10 sm:pb-14">
           <Reveal>
             <Link
               href="/blog"

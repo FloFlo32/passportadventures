@@ -34,7 +34,7 @@ export default function LatestTripsPage() {
           <AuroraBackground />
           <GridPattern />
 
-          <div className="container-px mx-auto max-w-6xl pt-20 pb-14 text-center sm:pt-28">
+          <div className="container-px mx-auto max-w-6xl pt-20 pb-20 text-center sm:pt-28 sm:pb-24">
             <Reveal>
               <Badge variant="accent">Client adventures</Badge>
             </Reveal>

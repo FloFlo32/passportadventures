@@ -23,7 +23,7 @@ export default function TravelPackagesPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="container-px mx-auto max-w-6xl pt-10 pb-16 sm:pt-16">
+        <section className="container-px mx-auto max-w-6xl pt-10 pb-20 sm:pt-16 sm:pb-24">
           <Reveal>
             <Badge className="border-secondary bg-secondary text-secondary-foreground">
               Group Trips
