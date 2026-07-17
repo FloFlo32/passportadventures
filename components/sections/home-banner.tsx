@@ -7,8 +7,8 @@ export function HomeBanner() {
   return (
     <section className="mx-auto max-w-6xl px-4 pb-24 sm:px-6">
       <Reveal className="relative overflow-hidden rounded-3xl border border-border bg-primary shadow-xl">
-        <div className="grid items-center gap-0 md:grid-cols-2">
-          <div className="flex flex-col gap-5 p-10 sm:p-14">
+        <div className="grid items-stretch gap-0 md:grid-cols-2">
+          <div className="flex flex-col justify-center gap-5 p-10 sm:p-14">
             <span className="w-fit rounded-full bg-secondary px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-accent-foreground">
               Ready When You Are
             </span>
